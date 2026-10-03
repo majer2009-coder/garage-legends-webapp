@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Гараж Легенд</title>
+    <script src="https://telegram.org/js/telegram-web-app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="app">
+        <header>
+            <div class="header-top">
+                <h1>ГАРАЖ ЛЕГЕНД</h1>
+                <div class="header-stats">
+                    <div class="stat"><span class="stat-icon">👑</span><span id="prestige">0</span></div>
+                    <div class="stat"><span class="stat-icon">₽</span><span id="balance">0</span></div>
+                </div>
+            </div>
+            <div class="region-bar" id="regionBar"></div>
+        </header>
+
+        <main id="mainContent"></main>
+
+        <nav class="bottom-nav">
+            <div class="nav-item active" data-tab="garage">🚗 Гараж</div>
+            <div class="nav-item" data-tab="containers">🎁 Контейнеры</div>
+            <div class="nav-item" data-tab="market">🛒 Маркет</div>
+            <div class="nav-item" data-tab="auction">🔨 Аукцион</div>
+            <div class="nav-item" data-tab="profile">👤 Профиль</div>
+        </nav>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
